@@ -3,19 +3,26 @@
   list-style: none;
   text-align: right;
   margin-right: 20px;
-  word-spacing: -20px; }
+  word-spacing: -20px;
+  margin-right: 30px;
+  margin-top: 0px; }
   .header ul li {
     display: inline; }
     .header ul li a {
-      text-decoration: none; }
+      text-decoration: none;
+      color: black; }
     .header ul li a:hover {
       text-decoration: underline; }
+    .header ul li img[alt="Grid"] {
+      height: 18px; }
+    .header ul li img[alt="Bell"] {
+      height: 25px; }
+    .header ul li img[alt="Profile Picture"] {
+      height: 40px; }
 
 .body {
-  background-color: yellow;
   position: relative;
-  top: 20%;
-  right: none; }
+  top: 20%; }
 
 .googleLogo {
   padding: 20px; }
@@ -55,27 +62,43 @@
   #search .searchButton #googleSearch {
     margin-right: 10px; }
 
+.googleAd {
+  position: relative;
+  text-align: center;
+  top: 25%; }
+
 .footer {
-  background-color: green;
+  background-color: #F2F2F2;
   bottom: 0px;
   position: absolute;
-  width: 100%; }
+  width: 100%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #D7D7D7; }
   .footer ul {
     list-style: none; }
     .footer ul li {
       display: inline; }
       .footer ul li a {
-        text-decoration: none; }
+        text-decoration: none;
+        color: #737373; }
       .footer ul li a:hover {
         text-decoration: underline; }
   .footer .left {
-    background-color: yellow;
+    background-color: none;
     float: left;
     width: 50%; }
     .footer .left ul {
-      margin-left: -20px; }
+      margin-top: 5px;
+      word-spacing: -5px;
+      position: relative; }
+      .footer .left ul li {
+        position: relative;
+        top: 5px; }
   .footer .right {
-    background-color: red;
     float: left;
     width: 50%;
     text-align: right; }
+    .footer .right ul {
+      margin-top: 10px;
+      margin-right: 30px; }
